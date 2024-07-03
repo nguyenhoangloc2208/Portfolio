@@ -1,7 +1,7 @@
-import React from "react";
-import About from "./About";
-import Home from "./Home";
-import Project from "./Project";
+import React from 'react'
+import About from './About'
+import Home from './Hero'
+import Project from './Project'
 
 const HomeRoot: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const HomeRoot: React.FC = () => {
         <Project />
       </div>
     </main>
-  );
+  )
 }
 
-export default HomeRoot;
+export default HomeRoot
