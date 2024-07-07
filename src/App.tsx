@@ -16,7 +16,7 @@ function App() {
 
   return (
     <ThemeProvider initialTheme={priTheme}>
-      <div className="scroll-smooth">
+      <div className="relative scroll-smooth">
         <Navbar />
         <Hero />
         <About />

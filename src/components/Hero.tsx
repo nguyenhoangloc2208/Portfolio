@@ -3,8 +3,8 @@ import profile_img from '../assets/image/profile_img.png'
 
 const Hero = () => {
   return (
-    <div id="home" className="flex w-full items-center flex-col gap-9">
-      <img src={profile_img} className="rounded-full w-60 h-60 object-cover" alt="profile" />
+    <div id="home" className="pt-16 flex w-full items-center flex-col gap-8">
+      <img src={profile_img} className="rounded-full w-60 h-60 mt-7 object-cover" alt="profile" />
       <h1 className="text-center text-6xl font-semibold w-[60%]">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
           I'm Nguyen Hoang Loc,
