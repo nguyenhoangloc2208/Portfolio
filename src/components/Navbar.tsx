@@ -2,9 +2,18 @@ import { Link } from 'react-scroll'
 import config from '../utils/config'
 
 const Navbar = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <nav className="absolute top-0 right-0 left-0 bg-primary flex justify-between items-center mx-36 my-5 font-medium">
-      <div className="text-2xl">Beru Portfolio</div>
+      <div className="text-2xl cursor-pointer" onClick={scrollToTop}>
+        Beru Portfolio
+      </div>
       <ol className="flex items-center gap-14">
         {config.navLinks &&
           config.navLinks.map(({ url, name }, i) => (

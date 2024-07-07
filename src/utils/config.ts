@@ -50,19 +50,19 @@ const config: Config = {
   navLinks: [
     {
       name: 'About',
-      url: '/#about'
+      url: 'about'
     },
     {
       name: 'Experience',
-      url: '/#jobs'
+      url: 'jobs'
     },
     {
       name: 'Work',
-      url: '/#projects'
+      url: 'projects'
     },
     {
       name: 'Contact',
-      url: '/#contact'
+      url: 'contact'
     }
   ],
 
